@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(203, 222, 250);
-    color: rgb(86, 139, 0);
+    color: rgb(139, 5, 0);
     font: normal 16px "lato", sans sans-serif;
 }
 h1 {
@@ -14,7 +14,44 @@ h2 {
 .avatar1 {
     width: 200px;
     border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(22, 74, 218, 025);
 }
 .youtube {
     color: rgb(255, 0, 0);
+}
+.info p {
+    color: rgb(87, 136, 182);
+    margin: 0;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+/* box model */
+.Antek {
+    background: rgb(152, 56, 207);
+    /* padding: 15px; */
+    /* padding: 15px 40px 15px 20px; */
+    padding-left: 15px;
+    padding-right: 40px;
+    padding-top: 30;
+    padding-bottom: 5px;
+    border: 5px solid rgb(170, 105, 212);
+    border-bottom-style: dotted;
+    margin: 20px;
+}
+.contener {
+    max-width: 1000px;
+    margin: auto;
+}
+.box-model > div {
+    float: left;
+    background: #000;
+    height: 200px;
+    width: 25%;
+    border: 4px solid rgb(156, 80, 80);
+    box-sizing: border-box;
 }
