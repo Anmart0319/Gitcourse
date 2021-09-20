@@ -1,2 +1,2 @@
-document.body.innerHTML = "<h1>Example for develop</h1>"
+document.body.innerHTML = "<h1>Minecraft</h1>"
 console.log("Test793")
