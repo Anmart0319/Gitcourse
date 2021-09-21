@@ -1,12 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
     background-color: rgb(203, 222, 250);
-    color: rgb(139, 5, 0);
-    font: normal 16px "lato", sans sans-serif;
+    color: rgb(35, 163, 73);
+    font-family: "Press Start 2P", cursive;
 }
+a {
+    color: rgb(255, 7, 7);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: rgb(45, 143, 50);
+}
+
 h1 {
-    color: rgb(0, 111, 139);
+    color: rgb(35, 163, 73);
 }
 h2 {
     color: rgb(162, 21, 197);
@@ -19,29 +36,28 @@ h2 {
 .youtube {
     color: rgb(255, 0, 0);
 }
-.info p {
-    color: rgb(87, 136, 182);
-    margin: 0;
-    font-style: italic;
-    font-size: 24px;
+.info {
+    color: rgb(93, 49, 175);
+    font-style: normal;
+    font-size: 20px;
     font-weight: bold;
-    text-decoration: none;
-    text-transform: none;
     letter-spacing: 3px;
     word-spacing: 10px;
+    margin: 30px;
+}
+
+.name {
+    font-size: 20px;
+    color: rgb(35, 163, 73);
 }
 /* box model */
-.Antek {
-    background: rgb(152, 56, 207);
-    /* padding: 15px; */
-    /* padding: 15px 40px 15px 20px; */
-    padding-left: 15px;
-    padding-right: 40px;
-    padding-top: 30;
-    padding-bottom: 5px;
-    border: 5px solid rgb(170, 105, 212);
-    border-bottom-style: dotted;
-    margin: 20px;
+/* .Antek {
+    background: rgb(179, 106, 221);
+    padding: 15px 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-right-color: green;
+    margin: 10px;
 }
 .contener {
     max-width: 1000px;
@@ -51,7 +67,32 @@ h2 {
     float: left;
     background: #000;
     height: 200px;
-    width: 25%;
+    width: 10%;
     border: 4px solid rgb(156, 80, 80);
     box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+    color: rgb(93, 49, 175);
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
