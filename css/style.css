@@ -39,7 +39,7 @@ h2 {
 .info {
     color: rgb(93, 49, 175);
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 3px;
     word-spacing: 10px;
@@ -76,15 +76,17 @@ h2 {
     background: #fff9dc;
     color: rgb(93, 49, 175);
     font-style: normal;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    word-spacing: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    word-spacing: 0px;
     line-height: 30px;
 }
 
 .bg-green {
     background: #e5ffe7;
+    font-size: 12px;
+    line-height: 20px;
 }
 
 .bg-red {
@@ -95,4 +97,13 @@ h2 {
     padding: 15px 25px;
     margin-bottom: 20px;
     border-radius: 20px;
+}
+.card h2 {
+    margin: 10px;
+}
+.what {
+    color: rgb(255, 0, 0);
+}
+.table {
+    
 }
